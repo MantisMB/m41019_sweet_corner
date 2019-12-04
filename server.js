@@ -42,7 +42,7 @@ app.get('/api/products/:product_id', async (req, res) => {
     //Then, send data to client
 
     const [ results ] = await db.query(`
-    SELECT p.pid AS id, caption, cost, p.name, i.pid AS imId, altText, file, type, description 
+    SELECT p.pid AS id, caption, cost, description, p.name, i.pid AS imId, altText, file, type  
     FROM products AS p 
     JOIN images AS i 
     ON i.productId=p.id
@@ -53,7 +53,7 @@ app.get('/api/products/:product_id', async (req, res) => {
     let images = {};
 
     results.forEach(result => {
-        const { imId, altText, file, type, description, ...p} = result;
+        const { imId, altText, file, type, ...p} = result;
 
         let keyName = 'image';
 
