@@ -10,6 +10,6 @@ const getProductDetails = require('./get_details');
 
 router.get('/', getAllProducts);
 
-router.get('/', getProductDetails);
+router.get('/:product_id', getProductDetails);
 
 module.exports = router;
