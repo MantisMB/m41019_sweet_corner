@@ -1,0 +1,50 @@
+.homediv1 {
+    
+
+    h1 {
+        align-content: center;
+        text-align: center;
+    }
+    main {
+        text-align: left;
+        padding: 0px 15px 0px 20px;
+        color: #754b23;
+        h2 {
+            font-family: Arial;
+        }
+    }
+    aside {
+        background-image: url("../../assets/images/strips2.png");
+        background-size: contain;
+        text-align: right;
+        border-radius: 10px;
+        .dotsbox2{
+            padding-right: 30px;
+            padding-top: 20px;
+        }
+    }
+
+}
+
+.homediv2 {
+    width: 1000px;
+    position: inherit;
+    display: inline-block;
+    h1 {
+        align-content: center;
+        text-align: center;
+        font-family: Qwigley, cursive, sans-serif;
+    }
+    .cupcakes {
+        text-align:center;
+        width: 1000px;
+        height: 295px;
+        background-image: url("../../assets/images/cupcakes.png");
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+        border-radius: 10px;
+    }
+}
+
+
+

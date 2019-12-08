@@ -1,0 +1,120 @@
+.dangererror {
+    color: red;
+    text-align: left;
+    width:310px;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.contactdiv1 {
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #754b23;
+    padding: 15px;
+    .formdiv{
+        padding: 0px;
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #754b23;
+            opacity: 1; /* Firefox */
+            top: 0px;
+          }
+          
+          :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #754b23;
+          }
+          
+          ::-ms-input-placeholder { /* Microsoft Edge */
+            color: #754b23;
+          }
+        .contact {
+            font-family: Arial, Helvetica, sans-serif;
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: left;
+                color: #754b23;
+            }
+            .form-actions{
+                text-align: right;
+                width: 310px;
+                button {
+                    font-family: Arial, Helvetica, sans-serif;
+                    border: 0px;
+                    text-align: center;
+                    width: 155px;
+                    height: 35px;
+                    background-color: #06b4af;
+                    color: white;
+                }
+            }
+        
+            input{
+                width: 310px;
+                height: 35px;
+                border: 0px;
+        
+            }
+            form{ 
+                padding: 0px;
+                .input-field {
+                    padding: 5px 0px 5px 0px;
+                    margin: 0px;
+                    text-indent: 3mm;
+                    text-align: left;
+                    .name {
+                        width: 310px;
+                        height: 35px;
+                        background-color: #e86b35;
+                        border: 0px;
+                        text-indent: 3mm;
+                    }
+                    .email {
+                        width: 310px;
+                        height: 35px;
+                        background-color: #f6b53e;
+                        border: 0px;
+                        text-indent: 3mm;
+                    }
+                    .subject {
+                        width: 310px;
+                        height: 35px;
+                        background-color: #e86b35;
+                        border: 0px;
+                        text-indent: 3mm;
+                    }
+                    .phone {
+                        width: 310px;
+                        height: 35px;
+                        background-color: #06b4af;
+                        border: 0px;
+                        text-indent: 3mm;
+                    }
+                    .message {
+                        min-width: 310px;
+                        min-height: 115px;
+                        
+                        background-color:#f6b53e;
+                        border: 0px;
+                        text-indent: 3mm;
+                        resize:vertical;
+                        overflow: auto;
+                    }
+                    .btn-send {
+                        margin-bottom: 5%;
+                    }
+                } 
+            } 
+        
+        }
+    }
+}
+.contactdiv2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #754b23;
+    margin-top:5%;
+    h5 {
+        color: #754b23; 
+    }
+
+}
