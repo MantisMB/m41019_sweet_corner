@@ -1,0 +1,45 @@
+footer {
+    font-family: arial;
+    position: absolute;
+    height: 80px;
+    width: 1000px;
+    background-color: #06b4af;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    .dots {
+        width: 30%;
+        height: 44px;
+        margin-top: 20px;
+        background-repeat: no-repeat; 
+        background-image: url("../../assets/images/dots-footer.png");
+        bottom: 0px;
+        background-position-x: center;
+
+        right: 10px;
+    };
+    .date {
+        height: 40px;
+        width: 40%;
+        vertical-align: bottom;
+        bottom: 0px;
+        margin-top: 40px;
+    };
+    .phone {
+        margin-top: 25px;
+        margin-right: 0px;
+        width: 25%;
+        height: 20px;
+        text-align: right;
+        p{
+            text-align: center;
+        }
+    };
+}
+
+footer > *{
+    width: 30%;
+    float: left;
+    text-align: center;
+    height: 100%;
+}

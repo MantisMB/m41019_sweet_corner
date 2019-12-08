@@ -1,0 +1,93 @@
+.guest-checkout {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #754b23;
+        font-weight: bold;
+    }
+    .form-group {
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+        padding-bottom: 2px;
+        
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #754b23;
+            opacity: 1; /* Firefox */
+            top: 0px;
+            text-indent: 3mm;
+            text-align: left;
+            }
+            
+            :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #754b23;
+            }
+            
+            ::-ms-input-placeholder { /* Microsoft Edge */
+            color: #754b23;
+            }  
+
+    .first {
+        width: 310px;
+        height: 35px;
+        background-color: #e86b35;
+        border: 0px;
+        text-indent: 3mm;
+        border-radius: 5px;
+    }
+    .last {
+        width: 310px;
+        height: 35px;
+        background-color: #f6b53e;
+        border: 0px;
+        text-indent: 3mm;
+        border-radius: 5px;
+    }
+    .emailcheckout {
+        width: 310px;
+        height: 35px;
+        background-color: #06b4af;
+        border: 0px;
+        text-indent: 3mm;
+        border-radius: 5px;
+    }
+
+
+}
+
+.dangererror {
+    color: red;
+    text-align: left;
+    width:310px;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn-warning {
+    color: white;
+    background-color: #e86b35;
+    padding: 15px;
+    border-color: #e86b35;
+    font-size: 1em;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    :hover {
+        cursor: pointer;
+    }
+}
+
+.contactdiv1 {
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #754b23;
+    padding: 15px; 
+    }
+    
+}

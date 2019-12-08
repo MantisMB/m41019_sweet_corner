@@ -1,0 +1,31 @@
+.products {
+    .col {
+        color: #754b23 ;
+        .order{
+            font-size: 1.2em;
+            text-align: center;
+            .number {
+                color: #f6b53e;
+            }
+        }
+        .reminder {
+            font-size: .8em;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .status {
+            color: #e86b35;
+        }
+        .quantity {
+            text-align: center;
+        }
+        .cupcake {
+            border-radius: 10px;
+            border-color: #754b23;
+        }
+    }
+
+}
+td {
+    text-align: center;
+}
