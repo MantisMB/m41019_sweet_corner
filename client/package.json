@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "Sweet Corner",
   "main": "index.js",
-  "proxy":  {
+  "proxy": {
     "/api/*": {
       "target": "http://localhost:3001"
     },
