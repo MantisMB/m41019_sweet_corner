@@ -14,7 +14,7 @@ class Schedule extends Component {
   }
 
   componentDidMount = ()=>{
-  axios.get('http://localhost:3000/data/schedule.json')
+  axios.get('http://localhost:3001/data/schedule.json')
     .then( (response) =>{
       this.setState({
         scheduleData:response.data.schedule

@@ -35,7 +35,7 @@ export const getProductDetails = productId => async dispatch => {
 
         const axiosConfig = {
             headers: {
-                'X-Cart-Token': cartToken
+                'x-cart-token': cartToken
             }
         }
         
@@ -67,7 +67,7 @@ export const getActiveCart = () => async dispatch => {
 
         const axiosConfig = {
             headers: {
-                'X-Cart-Token': cartToken
+                'x-cart-token': cartToken
             }
         }
 
